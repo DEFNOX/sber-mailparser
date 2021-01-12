@@ -9,9 +9,9 @@
 - Уведомление администратора в telegram о выполнении или ошибках
 
 #### Использование программы:
-- `sber-mailparser.exe -cfg=<путь до файла config.ini>  `  
+- `sber-mailparser.py -cfg=<путь до файла config.ini>  `  
 например:  
-- `sber-mailparser.exe -cfg=D:\prog\sber\config.ini ` 
+- `sber-mailparser.py -cfg=D:\prog\sber\config.ini ` 
 
 #### Установка  
 Установка не требуется. Проект скопилирован в единый исполняемый файл
