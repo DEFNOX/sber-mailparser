@@ -42,10 +42,5 @@
 - `[other]` - прочие настройки
     - `user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36` - подставлять в заголовке агент (прикидываться браузером). можно взять по ссылке: http://www.useragentstring.com/pages/useragentstring.php?name=Chrome
 
-****
-###### TODO:
-- валидация настроек почтового сервера, варианты подключения к yandex
-- проверка корректности конфигурации
-- валидация настроек прокси
-- введение версий
-- настройки прокси телеграм, отработка сценария блокировки доступа к bot api
+### Лицензия:
+Решение распростроняется по лицензии [MIT](https://github.com/DEFNOX/sber-mailparser/blob/main/LICENSE)
