@@ -11,10 +11,7 @@
 #### Использование программы:
 - `sber-mailparser.py -cfg=<путь до файла config.ini>  `  
 например:  
-- `sber-mailparser.py -cfg=D:\prog\sber\config.ini ` 
-
-#### Установка  
-Установка не требуется. Проект скопилирован в единый исполняемый файл
+- `sber-mailparser.py -cfg=D:\prog\sber\config.ini `
 
 ------------------------
 ### Файл конфигурации config.ini:
