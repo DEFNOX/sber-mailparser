@@ -27,7 +27,7 @@
     - `match_regex = .*/sbns-app/download/.*` - regex выражение для поиска совпадения в ссылке
     - `file_path = D:/Prog/sber/res/` - директория для сохранения архива
     - `extract_dir = D:/Prog/sber/extract/` - директория для сохранения распакованного файла
-    - `file_prefix = WINNY_SBER` - префикс для сохраняемых файлов. напр.: `WINNY_SBER_2020-01-30.zip`
+    - `file_prefix = PREFIX_SBER` - префикс для сохраняемых файлов. напр.: `WINNY_SBER_2020-01-30.zip`
     - `target_file = kl_to_1c.txt` - имя файла в скачиваемом архиве, который надо сохранить
     - `use_proxy = False` - использовать ли настройки прокси из раздела `[proxy]` для скачивания файла
 - `[proxy]` - настройки прокси для скачивания файла
@@ -37,7 +37,7 @@
     - `proxy_password = password` - пароль
 - `[telegram]` - настройки telegram
     - `notify_admin = True` - отправлять уведомления в telegram
-    - `notify_tg = [2095785]` - пользователь или список id пользователей (список: `[123321,123321]`)
+    - `notify_tg = [0000000]` - пользователь или список id пользователей (список: `[123321,123321]`)
     - `notify_tg_botkey = 000000000:AAEI51H8WiNP5s-Zq-LFdfsfe_OZdbVyZY` - api ключ бота (via @botfather)
 - `[other]` - прочие настройки
     - `user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36` - подставлять в заголовке агент (прикидываться браузером). можно взять по ссылке: http://www.useragentstring.com/pages/useragentstring.php?name=Chrome
